@@ -83,6 +83,13 @@ DATABASES = {
     }
 }
 
+LEAFLET_CONFIG = {
+    'DEFAULT_CENTER': (55.75, 37.61),
+    'DEFAULT_ZOOM': 10,
+    'MIN_ZOOM': 3,
+    'MAX_ZOOM': 18,
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
